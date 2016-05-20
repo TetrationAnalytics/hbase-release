@@ -1464,14 +1464,14 @@
           <plugin>
             <groupId>org.apache.rat</groupId>
             <artifactId>apache-rat-plugin</artifactId>
-            <executions>
+		<!-- <executions>
               <execution>
                 <phase>package</phase>
                 <goals>
                   <goal>check</goal>
                 </goals>
               </execution>
-            </executions>
+            </executions> -->
           </plugin>
         </plugins>
       </build>
